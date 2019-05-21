@@ -1,0 +1,36 @@
+svg {
+  padding: 5px;
+}
+.brush .selection {
+  stroke: red;
+  fill: rgb(119, 119, 119);
+}
+
+.right-menu {
+  position: absolute;
+  display: none;
+  width: 150px
+}
+
+.right-menu ul {
+  padding-left: 0;
+  background-color: white;
+  border: 1px solid #ccc
+}
+
+.right-menu li {
+  padding: 5px;
+  font-size: 13px;
+  list-style: none;
+  border-bottom: 1px solid #ececec;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none
+}
+
+.right-menu li:hover {
+  background-color: #e8e8e8
+}
