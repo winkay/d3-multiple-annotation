@@ -1,4 +1,4 @@
-// import * as d3 from "d3";
+import * as d3 from "d3";
 import Contextmenu from './lib/Contextmenu';
 import utils from './lib/Utils';
 import './styles/index.css';
